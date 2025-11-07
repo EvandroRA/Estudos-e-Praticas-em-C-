@@ -10,15 +10,17 @@ O objetivo deste repositório é **acompanhar minha evolução na linguagem C**,
 Cada código aqui representa uma etapa do meu aprendizado, com foco em **clareza, lógica e eficiência**.
 
 
-## 🧠 Conteúdos Trabalhados
+## 🧠 Conceitos Trabalhados
 
-- Estruturas sequenciais e condicionais  
-- Laços de repetição (`for`, `while`, `do while`)  
-- Funções e passagem de parâmetros por referência  
-- Vetores e matrizes  
-- Manipulação de strings  
-- Organização modular de código  
-- Entrada e saída de dados com tratamento básico de erros  
+Durante o desenvolvimento, utilizei e aprimorei conceitos fundamentais da programação em C, passando por:
+
+- 📘 **Fundamentos da linguagem:** entrada e saída de dados, operadores e estruturas básicas  
+- 🔁 **Estruturas condicionais e de repetição:** `if`, `switch`, `for`, `while`, `do while`  
+- 🧩 **Funções e modularização:** organização do código e **passagem de parâmetros por valor e por referência**  
+- 📊 **Vetores e matrizes:** manipulação e ordenação de dados  
+- 🔤 **Strings:** leitura, modificação e comparação de textos  
+- 🧠 **Ponteiros:** manipulação direta de memória e variáveis  
+- ⚙️ **Boas práticas:** código limpo, indentação e comentários descritivos  
 
 
 ## 🧩 Tecnologias e Ferramentas
