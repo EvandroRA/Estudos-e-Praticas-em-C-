@@ -47,6 +47,7 @@ void exibirPilha(Pilha p) {
 }
 
 int main() {
+
     Pilha p1;
     inicializar(&p1);
 
@@ -59,6 +60,8 @@ int main() {
     push(&p1, 40);
     push(&p1, 30);
     push(&p1, 25);
+    push(&p1, 10);
+    push(&p1, 10);
     push(&p1, 10);
 
     exibirPilha(p1);
