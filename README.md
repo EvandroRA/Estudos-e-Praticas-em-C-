@@ -1,43 +1,58 @@
-💻 Desenvolvimento em C & Estruturas de Dados
-Este repositório reúne meus projetos e exercícios desenvolvidos durante minha jornada acadêmica. O foco evoluiu de lógica de programação básica (ATP) para a implementação e análise de estruturas de dados complexas (ED e EDA).
+# 💻 Desenvolvimento em C & Estruturas de Dados
 
-📂 Organização do Repositório
-O projeto está dividido em três grandes etapas:
+Este repositório reúne meus projetos e exercícios desenvolvidos durante minha jornada acadêmica. O foco evoluiu da lógica de programação básica (**ATP**) para a implementação e análise de estruturas de dados complexas (**ED** e **EDA**).
 
-ATP (Algoritmos e Técnicas de Programação): Fundamentos, listas de exercícios e lógica inicial.
+---
 
-ED (Estrutura de Dados): Implementação de estruturas clássicas e conceitos de memória.
+## 📂 Organização do Repositório
 
-EDA (Estrutura de Dados Avançadas): Tópicos complexos e otimização de busca e armazenamento.
+O projeto está estruturado em três grandes marcos de aprendizado:
 
-🧠 Evolução dos Conceitos
-🔵 Fundamentos (ATP)
-Lógica Estruturada: Uso de if/else, switch e laços de repetição (for, while).
+| Camada | Descrição | Status |
+| :--- | :--- | :--- |
+| **ATP** | Algoritmos e Técnicas de Programação: lógica e fundamentos. | ✅ Concluído |
+| **ED** | Estrutura de Dados: gerenciamento de memória e estruturas clássicas. | ✅ Concluído |
+| **EDA** | Estrutura de Dados Avançadas: algoritmos complexos e otimização. | 🚧 Em progresso |
 
-Modularização: Criação de funções e procedimentos com passagem de parâmetros.
+---
 
-Dados Compostos: Manipulação de vetores, matrizes e strings.
+## 🧠 Evolução dos Conceitos
 
-🟡 Estruturas de Dados (ED)
-Nesta fase, o foco foi entender como os dados são organizados na memória:
+### 🔵 Fundamentos (ATP)
+* **Lógica Estruturada:** Uso de `if/else`, `switch` e laços de repetição (`for`, `while`).
+* **Modularização:** Criação de funções e procedimentos com passagem de parâmetros por valor e referência.
+* **Dados Compostos:** Manipulação de vetores, matrizes e tratamento de strings.
 
-Recursividade: Soluções elegantes para problemas repetitivos.
+### 🟡 Estrutura de Dados (ED)
+Foco no entendimento de como os dados são organizados e manipulados na memória RAM:
+* **Recursividade:** Implementação de soluções iterativas vs. recursivas.
+* **Alocação Dinâmica:** Uso de `malloc`, `realloc` e `free` para gerenciamento manual de memória.
+* **Listas Encadeadas:** Implementação de listas simples, duplas e circulares.
+* **Pilhas & Filas:** Conceitos de LIFO (*Last-In, First-Out*) e FIFO (*First-In, First-Out*).
+* **Árvores Binárias:** Introdução a estruturas não lineares e percursos (pré-ordem, em-ordem, pós-ordem).
 
-Listas Encadeadas: Alocação dinâmica de memória para estruturas flexíveis.
 
-Pilhas (Stack) e Filas (Queue): Gerenciamento de dados com regras LIFO e FIFO.
 
-Árvores Binárias: Introdução a estruturas não lineares e hierárquicas.
+### 🔴 Estrutura de Dados Avançadas (EDA)
+Exploração de algoritmos de alta performance e complexidade computacional:
+* **Árvores de Busca Balanceadas:** Implementação de Árvores AVL ou Rubro-Negras.
+* **Tabelas Hash:** Funções de espalhamento e tratamento de colisões (encadeamento externo e endereçamento aberto).
+* **Grafos:** Representação por matriz de adjacência e lista de adjacência, além de algoritmos de busca (BFS/DFS).
+* **Algoritmos de Ordenação Eficientes:** QuickSort, MergeSort e HeapSort.
 
-🔴 Estruturas Avançadas (EDA)
+---
 
-Em Processo...
+## 🛠️ Tecnologias e Ferramentas
 
-🛠️ Tecnologias e Ferramentas
-Linguagem: C 
+* **Linguagem:** `C` 
+* **Compilador:** `GCC`
+* **Ambiente de desenvolvimento:** `VS Code`
+* **Sistema Operacional:** `Windows 11`
 
-Compilador: GCC
+---
 
-Ambiente de desenvolvimento: VS Code
-
-Sistema Operacional: Windows 11
+## 🚀 Como Executar
+Para compilar qualquer um dos exercícios, utilize o terminal:
+```bash
+gcc -o programa nome_do_arquivo.c
+./programa
