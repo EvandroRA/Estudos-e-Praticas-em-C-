@@ -1,33 +1,43 @@
-# 💻 Desenvolvimento em C
+💻 Desenvolvimento em C & Estruturas de Dados
+Este repositório reúne meus projetos e exercícios desenvolvidos durante minha jornada acadêmica. O foco evoluiu de lógica de programação básica (ATP) para a implementação e análise de estruturas de dados complexas (ED e EDA).
 
-Este repositório reúne meus projetos e exercícios desenvolvidos em **C** durante minha jornada na faculdade.  
-Começou com atividades simples de introdução à linguagem e, ao longo do tempo, venho **melhorando o código, aplicando boas práticas** e explorando conceitos mais avançados conforme avanço no curso.
+📂 Organização do Repositório
+O projeto está dividido em três grandes etapas:
 
+ATP (Algoritmos e Técnicas de Programação): Fundamentos, listas de exercícios e lógica inicial.
 
-##  Sobre o Projeto:
+ED (Estrutura de Dados): Implementação de estruturas clássicas e conceitos de memória.
 
-O objetivo deste repositório é **acompanhar minha evolução na linguagem C**, desde os primeiros programas estruturados até o uso de funções, vetores, matrizes e manipulação de strings.  
-Cada código aqui representa uma etapa do meu aprendizado, com foco em **clareza, lógica e eficiência**.
+EDA (Estrutura de Dados Avançadas): Tópicos complexos e otimização de busca e armazenamento.
 
+🧠 Evolução dos Conceitos
+🔵 Fundamentos (ATP)
+Lógica Estruturada: Uso de if/else, switch e laços de repetição (for, while).
 
-## 🧠 Conceitos Trabalhados
+Modularização: Criação de funções e procedimentos com passagem de parâmetros.
 
-Durante o desenvolvimento, utilizei e aprimorei conceitos fundamentais da programação em C, passando por:
+Dados Compostos: Manipulação de vetores, matrizes e strings.
 
-- 📘 **Fundamentos da linguagem:** entrada e saída de dados, operadores e estruturas básicas  
-- 🔁 **Estruturas condicionais e de repetição:** `if`, `switch`, `for`, `while`, `do while`  
-- 🧩 **Funções e modularização:** organização do código e **passagem de parâmetros por valor e por referência**  
-- 📊 **Vetores e matrizes:** manipulação e ordenação de dados  
-- 🔤 **Strings:** leitura, modificação e comparação de textos  
-- 🧠 **Ponteiros:** manipulação direta de memória e variáveis  
-- ⚙️ **Boas práticas:** código limpo, indentação e comentários descritivos  
+🟡 Estruturas de Dados (ED)
+Nesta fase, o foco foi entender como os dados são organizados na memória:
 
+Recursividade: Soluções elegantes para problemas repetitivos.
 
-## 🧩 Tecnologias e Ferramentas
+Listas Encadeadas: Alocação dinâmica de memória para estruturas flexíveis.
 
-- **Linguagem:** C++  
-- **Compilador:** GCC  
-- **Ambiente de desenvolvimento:** VS Code
-- **Sistema Operacional:** Windows 
+Pilhas (Stack) e Filas (Queue): Gerenciamento de dados com regras LIFO e FIFO.
 
+Árvores Binárias: Introdução a estruturas não lineares e hierárquicas.
 
+🔴 Estruturas Avançadas (EDA)
+
+Em Processo...
+
+🛠️ Tecnologias e Ferramentas
+Linguagem: C 
+
+Compilador: GCC
+
+Ambiente de desenvolvimento: VS Code
+
+Sistema Operacional: Windows 11
