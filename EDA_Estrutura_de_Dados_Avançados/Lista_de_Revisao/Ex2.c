@@ -66,25 +66,25 @@ int resultadoOrtogonal (int matrizM[4][4]){
 
 int main(){
 
-int matrizM[4][4];
-int Transposta[4][4];
-int Multiplicacao[4][4];
+    int matrizM[4][4];
+    int Transposta[4][4];
+    int Multiplicacao[4][4];
 
-srand(time(NULL));
+    srand(time(NULL));
 
-gerarMatriz(matrizM);
-matrizTransposta(matrizM,Transposta);
-multiplicacaoMatriz(matrizM,Transposta,Multiplicacao);
+    gerarMatriz(matrizM);
+    matrizTransposta(matrizM,Transposta);
+    multiplicacaoMatriz(matrizM,Transposta,Multiplicacao);
 
-if (resultadoOrtogonal(Multiplicacao) == 1){
+    if (resultadoOrtogonal(Multiplicacao) == 1){
 
-    printf("A Matriz M e ORTOGONAL");
-}
-else {
+        printf("A Matriz M e ORTOGONAL");
+    }
+    else {
 
-    printf("A Matriz M nao e ORTOGONAL");
-}
+        printf("A Matriz M nao e ORTOGONAL");
+    }
 
-return 0;
+    return 0;
 
 }

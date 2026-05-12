@@ -1,3 +1,5 @@
 {
-    "c-cpp-compile-run.run-in-external-terminal": true
+    "c-cpp-compile-run.run-in-external-terminal": true,
+    "code-runner.runInTerminal": true,
+    "terminal.integrated.shellIntegration.enabled": true
 }

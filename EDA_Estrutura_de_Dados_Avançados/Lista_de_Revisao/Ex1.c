@@ -78,22 +78,22 @@ for (int i = 0; i < N; i++){
 
 int main() {
 
-int matrizA[N][M];
+    int matrizA[N][M];
 
-srand(time(NULL));
+    srand(time(NULL));
 
-gerarMatriz(matrizA);
+    gerarMatriz(matrizA);
 
-if (verificarCondicao(matrizA) == 1){
+    if (verificarCondicao(matrizA) == 1){
 
-    printf("Condicao Satisfeita");
-}
-else {
+        printf("Condicao Satisfeita");
+    }
+    else {
 
-    printf("Condicao Nao Satisfeita");
-}
+        printf("Condicao Nao Satisfeita");
+    }
 
-
+    return 0;
 }
 
 

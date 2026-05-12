@@ -54,11 +54,11 @@ int main(){
     escreverVetor(vetor);
     organizarVetor(vetor);
 
-    printf("Vetor Organizado (Par no Impar e Impar no Par)");
+    printf("Vetor Organizado (Numero Par no Vetor Impar e Vice-Versa)");
 
-    for(int i = 0; i < 20; i++){
+    for(int i = -1; i < 20; i++){
 
-        printf("%d \n", vetor[i]);
+        printf("Vetor[%d]: %d \n",i,vetor[i]);
 
     }
 
