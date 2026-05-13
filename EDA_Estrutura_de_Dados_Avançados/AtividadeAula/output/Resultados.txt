@@ -1,0 +1,4 @@
+
+Nota Maxima = 9.10 
+Nota Minima = 4.20 
+
